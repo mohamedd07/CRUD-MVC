@@ -1,0 +1,22 @@
+﻿@model RoleViewModeL
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Edit Users</h1>
+
+
+<form asp-action="Create">
+
+    <partial name="PartialViews/CreateEditRolePartial" />
+
+
+    <input type="submit" value="Create" class="btn btn-primary" />
+    <a asp-action="Index" class="btn btn-light">Back To List</a>
+
+</form>
+
+
+
+
+
